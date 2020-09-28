@@ -1,0 +1,17 @@
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Tests.deps.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Tests.runtimeconfig.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Tests.runtimeconfig.dev.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Tests.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Tests.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Domain.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\bin\Debug\netcoreapp2.0\Ozow.Sorting.Domain.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.csprojAssemblyReference.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.AssemblyInfoInputs.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.AssemblyInfo.cs
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.csproj.CopyComplete
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Tests\obj\Debug\netcoreapp2.0\Ozow.Sorting.Tests.pdb

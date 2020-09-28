@@ -1,0 +1,13 @@
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Console.deps.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Console.runtimeconfig.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Console.runtimeconfig.dev.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Console.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Console.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Domain.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\bin\Debug\netcoreapp2.1\Ozow.Sorting.Domain.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.csprojAssemblyReference.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.AssemblyInfoInputs.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.AssemblyInfo.cs
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.csproj.CopyComplete
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Console\obj\Debug\netcoreapp2.1\Ozow.Sorting.Console.pdb

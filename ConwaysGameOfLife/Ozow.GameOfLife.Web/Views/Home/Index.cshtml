@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Game Inputs</h1>
+<div class='container-fluid'>
+    <div class="col-md-4" >
+        <div class="form-group">
+            <label >Rows</label>
+            <input class="form-control" id="rows" placeholder="Row count" value="20" />
+            <small class="form-text text-muted">Number of rows in the grid</small>    
+        </div>
+        <div class="form-group">
+            <label >Columns</label>
+            <input class="form-control" id="cols" placeholder="Column count" value="20" />
+            <small class="form-text text-muted">Number of columns in the grid</small>    
+        </div>
+        <div class="form-group">
+            <label >Generations</label>
+            <input class="form-control" id="gens" placeholder="Generations" value="5" />
+            <small class="form-text text-muted">Number of generations</small>    
+        </div>  
+        <button type="button" id='btnStartGame' class="btn btn-primary">Start Game</button>
+    </div>
+    <div class="col-md-8" >
+        <div id="grid" ></div>
+    </div>
+</div>
+
+@section Scripts
+{
+  <script src="~/lib/signalr/dist/browser/signalr.js"></script>
+  <script>
+        var gridWidth = 500;
+        var gridHeight = 500;
+        var cellSize;
+
+        function drawGrid(data) {            
+            var grid = d3.select("#grid svg");
+
+            // Add rows
+            var row = grid.selectAll(".row")
+                .data(data)
+                .enter().append("g")
+                .attr("class", "row");
+
+            // Add cells
+            var column = row.selectAll(".square")
+                .data(function(d) { return d; })
+                .enter().append("rect")
+                .attr("class","square")
+                .attr("x", function(d) { return d.x; })
+                .attr("y", function(d) { return d.y; })
+                .attr("width", function(d) { return d.width; })
+                .attr("height", function(d) { return d.height; })
+                .style("fill", function(d){ return d.alive ? '#666' : '#fff' })
+                .style("stroke", "#222");
+        }
+
+        function updateGrid(data){   
+            var grid = d3.select("#grid svg");
+
+            var row = grid.selectAll(".row")
+                .data(data)                
+                .attr("class", "row");
+                              ;
+            row.selectAll(".square")                
+                .data(function(d) { return d; })
+                .attr("x", function(d) { return d.x; })
+                .attr("y", function(d) { return d.y; })
+                .attr("width", function(d) { return d.width; })
+                .attr("height", function(d) { return d.height; })
+                .style("fill", function(d){ return d.alive ? '#666' : '#fff' })
+                .style("stroke", "#222");
+        }
+
+        function mapToJsonObject(data){
+           var width = cellSize; 
+            var height = cellSize;
+
+            var ypos = 0;
+            var xpos = 0;
+            return data.map(function(r){ 
+                xpos = 0;
+                ypos += height;
+                return r.map(function(c){                    
+                    xpos += width;                    
+                    return {
+                        x: xpos - width,
+                        y: ypos - height,
+                        width: width,
+                        height: height,
+                        alive: c.isAlive
+                    };                    
+                });                
+            });
+        }
+
+        function handleSigErr(err) {
+            return console.error(err.toString());
+        };
+
+        function handleStartGameMsgReceived(user, message) {            
+        }
+
+        function handleGameOver()
+        {            
+            $('#btnStartGame').prop('disabled', false);            
+        }
+
+        function handleInitGameState(data){                      ;
+            var gridData = mapToJsonObject(data);
+            drawGrid(gridData);
+        }
+
+        function handleUpdateGameState(data){                   
+            var gridData = mapToJsonObject(data);                        
+            updateGrid(gridData);
+        }
+
+        function handleOnClickStartGame(){             
+            $(this).prop('disabled', true);
+            $("svg").children().remove();
+
+            var connection = new signalR.HubConnectionBuilder().withUrl("/gameHub").build()            
+            connection.on("StartGameMsgReceived", handleStartGameMsgReceived);
+            connection.on("InitGameState", handleInitGameState);
+            connection.on("UpdateGameState", handleUpdateGameState);
+            connection.on("GameOver", handleGameOver)
+            
+
+            connection.start()
+                .then(function(){ 
+                    var rows = +$('#rows').val();     
+                    var cols = +$('#cols').val();
+                    var gens = +$('#gens').val();
+                    cellSize = Math.max(gridWidth, gridHeight) / Math.max(rows, cols);                    
+                    var message = {
+                        RowCount: rows ,
+                        ColumnCount: cols,
+                        GenCount: gens
+                    };
+                    connection.invoke("StartGame", message).catch(handleSigErr);                
+                })
+                .catch(handleSigErr);
+        }
+
+        $(function(){
+            //createGrind();
+            $('#btnStartGame').click(handleOnClickStartGame);
+
+            // Create Grid
+            var grid = d3.select("#grid")
+                .append("svg")
+                .attr("width", gridWidth + "px")
+                .attr("height", gridHeight + "px")
+                .style("border", "1px solid #666");
+            
+        });
+
+  </script>
+}

@@ -1,0 +1,8 @@
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\bin\Debug\netstandard2.0\Ozow.Sorting.Domain.deps.json
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\bin\Debug\netstandard2.0\Ozow.Sorting.Domain.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\bin\Debug\netstandard2.0\Ozow.Sorting.Domain.pdb
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\obj\Debug\netstandard2.0\Ozow.Sorting.Domain.csprojAssemblyReference.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\obj\Debug\netstandard2.0\Ozow.Sorting.Domain.AssemblyInfoInputs.cache
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\obj\Debug\netstandard2.0\Ozow.Sorting.Domain.AssemblyInfo.cs
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\obj\Debug\netstandard2.0\Ozow.Sorting.Domain.dll
+C:\Users\Lukhanyo\Downloads\Compressed\Ozow-master\Ozow-master\AnExerciseInSorting\Ozow.Sorting.Domain\obj\Debug\netstandard2.0\Ozow.Sorting.Domain.pdb
